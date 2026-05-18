@@ -2,7 +2,7 @@
 
 # Data IO
 
-Data pipeline for HRM-Text pretraining. Unlike LLM pretraining pipelines that ingest web documents for language modeling, Data IO produces instruction-style question-answer pairs and builds sampled tokenized datasets for training.
+This is the data pipeline used in the pretraining process of HRM-Text. Unlike LLM pretraining pipelines that ingest web documents for language modeling, HRM-Text Data IO produces instruction-style question-answer pairs and builds sampled tokenized datasets for training.
 
 ## Overview
 
@@ -29,9 +29,9 @@ data_io/
 └── sample_tokenized.py       # Stratified sampling & epoch creation
 ```
 
-## Usage
+## Guidelines
 
-All commands below assume you are in this directory and installed pip requirements:
+Before you start, please make sure that you are in the project directory and have installed pip requirements:
 
 ```bash
 cd data_io
@@ -164,7 +164,7 @@ Reports include:
 
 ## Citation
 
-Citation information will be added with the accompanying paper.
+Citation information can be found in the accompanying paper.
 
 ## Contributions
 
