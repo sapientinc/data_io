@@ -1,0 +1,12 @@
+datasets
+huggingface_hub
+numpy
+omegaconf
+orjson
+pandas
+polars
+protobuf
+pyarrow
+pydantic
+PyYAML
+tqdm

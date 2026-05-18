@@ -1,0 +1,40 @@
+# Ordered: First match applies.
+
+# SYNTH
+- prefix: "SYNTH__"
+  max_per_file: 20_000
+
+# FLAN
+- prefix: "flan__cot_"
+- prefix: "flan__"
+  max_per_file: 5_000
+
+# Other clustered datasets
+- prefix: "dmmath__"
+  max_per_file: 100_000
+- prefix: "ampsmathematica__"
+  max_per_file: 10_000
+- prefix: "tasksource__"
+  max_per_file: 10_000
+- prefix: "openmathinstruct2__"
+  max_per_file: 2_000_000
+- prefix: "acereason__"
+  max_per_file: 2_000_000
+- prefix: "openthoughts2__"
+  max_per_file: 500_000
+- prefix: "sudoku_extreme__"
+  max_per_file: 1_000_000
+
+# Repeat small HQ datasets
+- prefix: "Platypus__"
+  repeat: 10
+- prefix: "omnimath.jsonl"
+  repeat: 10
+- prefix: "gsm8k_train.jsonl"
+  repeat: 10
+- prefix: "math_train.jsonl"
+  repeat: 10
+- prefix: "webinstruct_verified.jsonl"
+  repeat: 10
+- prefix: "no_robots.jsonl"
+  repeat: 10
