@@ -2,6 +2,10 @@
 
 # Data IO
 
+<p align="center">
+  <a href="https://sapientinc.github.io/HRM-Text/assets/HRM_Text.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper"></a>
+</p>
+
 This is the data pipeline used in the pretraining process of HRM-Text. Unlike LLM pretraining pipelines that ingest web documents for language modeling, HRM-Text Data IO produces instruction-style question-answer pairs and builds sampled tokenized datasets for training.
 
 ## Overview
