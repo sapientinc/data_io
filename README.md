@@ -169,7 +169,19 @@ Reports include:
 
 ## Citation
 
-Citation information can be found in the accompanying paper.
+If you find this project or our paper useful, please consider citing our paper:
+
+```
+@misc{wang2026hrmtextefficientpretrainingscaling,
+      title={HRM-Text: Efficient Pretraining Beyond Scaling}, 
+      author={Guan Wang and Changling Liu and Chenyu Wang and Cai Zhou and Yuhao Sun and Yifei Wu and Shuai Zhen and Luca Scimeca and Yasin Abbasi Yadkori},
+      year={2026},
+      eprint={2605.20613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.20613}, 
+}
+```
 
 ## Contributions
 
@@ -198,22 +210,6 @@ We welcome contributions to scale and improve this pretraining pipeline! Because
 ### Submitting Your PR
 
 Title your PR with a clear prefix (e.g., `[Opt]` or `[Major]`) and include the required validation proofs in the description. For other types of changes, please open an issue to discuss.
-
-## Citation
-
-If you find this project or our paper useful, please consider citing our paper:
-
-```
-@misc{wang2026hrmtextefficientpretrainingscaling,
-      title={HRM-Text: Efficient Pretraining Beyond Scaling}, 
-      author={Guan Wang and Changling Liu and Chenyu Wang and Cai Zhou and Yuhao Sun and Yifei Wu and Shuai Zhen and Luca Scimeca and Yasin Abbasi Yadkori},
-      year={2026},
-      eprint={2605.20613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2605.20613}, 
-}
-```
 
 ## License
 
