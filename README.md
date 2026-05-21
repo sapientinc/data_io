@@ -3,7 +3,8 @@
 # Data IO
 
 <p align="center">
-  <a href="https://sapientinc.github.io/HRM-Text/assets/HRM_Text.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper"></a>
+  <a href="https://arxiv.org/pdf/2605.20613"><img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv&logoColor=white" alt="arXiv Paper"></a>
+  <a href="https://huggingface.co/sapientinc/HRM-Text-1B"><img src="https://img.shields.io/badge/Model-HuggingFace-yellow" alt="Model"></a>
 </p>
 
 This is the data pipeline used in the pretraining process of HRM-Text. Unlike LLM pretraining pipelines that ingest web documents for language modeling, HRM-Text Data IO produces instruction-style question-answer pairs and builds sampled tokenized datasets for training.
@@ -197,6 +198,22 @@ We welcome contributions to scale and improve this pretraining pipeline! Because
 ### Submitting Your PR
 
 Title your PR with a clear prefix (e.g., `[Opt]` or `[Major]`) and include the required validation proofs in the description. For other types of changes, please open an issue to discuss.
+
+## Citation
+
+If you find this project or our paper useful, please consider citing our paper:
+
+```
+@misc{wang2026hrmtextefficientpretrainingscaling,
+      title={HRM-Text: Efficient Pretraining Beyond Scaling}, 
+      author={Guan Wang and Changling Liu and Chenyu Wang and Cai Zhou and Yuhao Sun and Yifei Wu and Shuai Zhen and Luca Scimeca and Yasin Abbasi Yadkori},
+      year={2026},
+      eprint={2605.20613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.20613}, 
+}
+```
 
 ## License
 
